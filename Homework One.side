@@ -1,0 +1,258 @@
+{
+  "id": "7a79a782-35f8-49f1-990c-eb2bb480d3bb",
+  "version": "2.0",
+  "name": "Homework One",
+  "url": "http://samlib.ru",
+  "tests": [{
+    "id": "c7b472b4-ba9a-44ca-a19b-882c7c1ade49",
+    "name": "AUTH",
+    "commands": [{
+      "id": "6d13963c-9166-4bf5-842d-631ae4e18d70",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a7aafa1-d436-40c4-9af1-3dc0303ee891",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "730x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d50a4a21-4bec-4df3-8ef6-153e40644dc2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=center > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cgi-bin/login')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "495ba440-421d-4774-a998-33e37c3c8494",
+      "comment": "",
+      "command": "click",
+      "target": "name=DATA0",
+      "targets": [
+        ["name=DATA0", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='DATA0']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77ab636-cbfa-4353-9c96-fb2f4e72f87e",
+      "comment": "",
+      "command": "type",
+      "target": "name=DATA0",
+      "targets": [
+        ["name=DATA0", "name"],
+        ["css=tr:nth-child(2) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='DATA0']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "student_test"
+    }, {
+      "id": "3a0ee62f-e983-4ef1-ba8a-13e295f09039",
+      "comment": "",
+      "command": "click",
+      "target": "name=DATA1",
+      "targets": [
+        ["name=DATA1", "name"],
+        ["css=table:nth-child(2) tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='DATA1']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "088192dd-bc3c-431b-b501-be385ba3b888",
+      "comment": "",
+      "command": "type",
+      "target": "name=DATA1",
+      "targets": [
+        ["name=DATA1", "name"],
+        ["css=table:nth-child(2) tr:nth-child(3) > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='DATA1']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "12345678qwerty"
+    }, {
+      "id": "bbd0e494-dfe4-497d-8bf7-3d0c6b225bc9",
+      "comment": "",
+      "command": "click",
+      "target": "name=Вход!",
+      "targets": [
+        ["name=Вход!", "name"],
+        ["css=tr:nth-child(3) > td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Вход!']", "xpath:attributes"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a03527be-e395-4e67-8ebc-c7ad2a12a56e",
+    "name": "TOP40",
+    "commands": [{
+      "id": "da577f09-66f0-4b29-9d96-65b95038dc79",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5a5bde2-606e-4f12-9191-53a200ae5b51",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "730x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37c8e474-dc89-405c-bd0b-3e3690c838e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Рейтинги",
+      "targets": [
+        ["linkText=Рейтинги", "linkText"],
+        ["css=center > a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Рейтинги')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rating/expert/')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Рейтинги')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5f5b15a-3169-405b-b0ff-33f8cee4d573",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Топ40",
+      "targets": [
+        ["linkText=Топ40", "linkText"],
+        ["css=nobr:nth-child(1) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Топ40')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../top40/')]", "xpath:href"],
+        ["xpath=//td[3]/nobr/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Топ40')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d270e205-5fff-4791-897d-50e35069c72b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2) > a",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Владелец заводов, газет и пароходов...  (Агренев-4)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/k/kulakow_a_i/wladeleczawodowgazetiparohodow.shtml')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "566e332b-2be4-4840-bcb0-a8ca21e7ced9",
+    "name": "Комметрарий",
+    "commands": [{
+      "id": "d15499a8-9082-403e-974f-7dbe3d889c49",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec132bec-66be-4277-961f-bb520817d634",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "730x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa51f901-99d9-40c3-97b0-89b439f9e41f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Рейтинги",
+      "targets": [
+        ["linkText=Рейтинги", "linkText"],
+        ["css=center > a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Рейтинги')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/rating/expert/')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Рейтинги')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30eccb6c-7b1e-4777-bff1-708ab2f3af73",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Топ40",
+      "targets": [
+        ["linkText=Топ40", "linkText"],
+        ["css=nobr:nth-child(1) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Топ40')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../top40/')]", "xpath:href"],
+        ["xpath=//td[3]/nobr/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Топ40')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e187ac74-ea8a-4061-87f3-0fc7585687d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2) > a",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Владелец заводов, газет и пароходов...  (Агренев-4)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/k/kulakow_a_i/wladeleczawodowgazetiparohodow.shtml')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed5bb6a8-0ccd-4f86-9177-37ed452bf373",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(2) li:nth-child(1) > a",
+      "targets": [
+        ["css=table:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Комментарии: 793, последний от 12/07/2022.')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/comment/k/kulakow_a_i/wladeleczawodowgazetiparohodow')])[2]", "xpath:href"],
+        ["xpath=//font/table/tbody/tr/td/small/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "675aa958-9b1a-4145-8131-bef6cb301435",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ответить",
+      "targets": [
+        ["linkText=ответить", "linkText"],
+        ["css=small:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ответить')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/comment/k/kulakow_a_i/wladeleczawodowgazetiparohodow?OPERATION=reply&MSGID=16576424132710')]", "xpath:href"],
+        ["xpath=//small[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ответить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f33eb98c-55e4-47bf-bf67-25544c48f33c",
+      "comment": "",
+      "command": "webdriverAnswerOnVisiblePrompt",
+      "target": "xpath=//form",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0b999bf2-ff88-4443-9aa3-49a4e15ae309",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://samlib.ru/"],
+  "plugins": []
+}
